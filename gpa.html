@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EduCalc | GPA Calculator</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="site-header"><a class="brand" href="index.html"><span class="brand-icon">E</span><span><b>EduCalc</b><small>Student Calculation Suite</small></span></a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button><nav class="main-nav" id="mainNav"><a href="index.html">Normal Calculator</a><a href="scientific.html">Scientific</a><a class="active" href="gpa.html">GPA Calculator</a><a href="cgpa.html">CGPA Calculator</a></nav></header>
+<main class="container"><section class="page-heading"><p class="eyebrow">SEMESTER PERFORMANCE</p><h1>GPA Calculator</h1><p>Enter your courses, credit units and grades to calculate your semester GPA.</p></section>
+<section class="form-card"><div class="notice"><b>4.0 grading scale</b><span>A = 4, B = 3, C = 2, D = 1, F = 0. Confirm that this scale matches your institution's approved grading policy.</span></div>
+<div class="table-wrap"><table class="course-table"><thead><tr><th>Course code / name</th><th>Credit units</th><th>Grade</th><th></th></tr></thead><tbody id="courseRows"></tbody></table></div>
+<div class="form-actions"><button class="btn btn-secondary" id="addCourse" type="button">＋ Add course</button><button class="btn btn-primary" id="calculateGpa" type="button">Calculate GPA</button></div>
+<div class="result-panel" id="gpaResult" aria-live="polite"><span>YOUR SEMESTER GPA</span><strong>—</strong><small>Add your courses and calculate your GPA.</small></div></section></main>
+<footer class="site-footer">Designed for <b>Issa Yunus Abiodun</b> · 2025/HND/SWD/062 · SWD 417</footer><script src="js/common.js"></script><script src="js/gpa.js"></script></body></html>
